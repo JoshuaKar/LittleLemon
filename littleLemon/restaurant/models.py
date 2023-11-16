@@ -18,4 +18,4 @@ class Menu(models.Model):
         return f'{self.title} : {str(self.price)}'
     
     def __str__(self):
-        return self.title
+        return f'{self.title} : {str(self.price)}'
